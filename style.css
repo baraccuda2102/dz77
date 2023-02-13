@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Внешний вид меня */
+
+.side{
+    width: 200px;
+    margin: 20px;
+}
+
+.menu a{
+    background-color: #3d3d3d;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid #666;
+}
+
+.menu a:hover{
+    background-color: #666;
+    padding: 10px 0 10px 20px;
+}
+
+/* Всплывающие меню */
+
+.menu_list{
+    position: relative;
+}
+
+.menu_drop{
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    opacity: 0;
+    top: 0;
+}
+
+.menu_list:hover .menu_drop{
+    opacity: 1;
+
+}
+
+
